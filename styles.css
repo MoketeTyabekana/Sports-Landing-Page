@@ -144,3 +144,21 @@ margin: 50px auto;
 }
 
 
+@media  screen and (max-width: 768px) {
+    .navbar .container{
+        grid-template-columns: 1fr;
+    }
+    .nav{
+        justify-self: center;
+    }
+    .main .main-container{
+        grid-template-columns: 1fr;
+    }
+    .main-container h1{
+        font-size: 50px;
+    }
+    .main-container img{
+        width: 100%;
+    }
+    
+}
